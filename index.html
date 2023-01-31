@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>learn multiplication</title>
+  </head>
+  <body>
+    <div>
+      <div id="formDiv">
+        <form id="form">
+          <span>enter your max numbers?</span>
+          <div>
+            <label for="num1">
+              <input
+                type="number"
+                name="num1"
+                id="num1"
+                max="20"
+                min="3"
+                required
+              />
+            </label>
+            <span>X</span>
+            <label for="num">
+              <input
+                type="number"
+                name="num2"
+                id="num2"
+                max="20"
+                min="3"
+                required
+              />
+            </label>
+          </div>
+          <button name="multiply" id="multiply">Multiply</button>
+        </form>
+      </div>
+      <div id="clickedTDDiv">
+        <span id="click_a_number">click a number</span>
+        <span id="clickedTD"> </span>
+      </div>
+      <div id="tableDiv">
+        <table id="myTable"></table>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
